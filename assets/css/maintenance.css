@@ -19,10 +19,16 @@
 	.flexbox #dd-page{
 		align-items: center;
 		justify-content: center;
+		display: flex;
+		text-align:center;
+		height:100vh;
 	}
 
 	.dd body{
 		background: transparent;
+		background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
 	}
 
 	.dd body, .dd body p{
@@ -47,6 +53,7 @@
 				font-size: 48px;
 		color:#ffffff;
 		line-height: 1.00em;
+		padding-bottom:2vh;
 	}
 
 	
@@ -56,66 +63,11 @@
 
 	#dd-socialprofiles a {
 	  color: #ffffff;
-	}
-	.dd .btn-primary,
-	.dd .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	  padding:5px;
 	}
 
-	.dd .btn-primary:hover,
-	.dd .btn-primary:active,
-	.dd .btn-primary.active,
-	.dd .btn-primary.disabled,
-	.dd .btn-primary[disabled],
-	.dd .btn-primary:focus:hover,
-	.dd .btn-primary:focus:active,
-	.dd .btn-primary:focus.active,
-	.dd .btn-primary:focus.disabled,
-	.dd .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.dd .btn-primary:active,
-	.dd .btn-primary.active,
-	.dd .btn-primary:focus:active,
-	.dd .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
-
-	.dd .btn-primary:hover,
-	.dd .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
-
-    #dd-content {
+   #dd-content {
+        padding-bottom:2vh; 
 		display: none;
 		max-width: 700px;
 		background-color: #000000;
@@ -128,3 +80,38 @@
 	}
     						
 
+   #dd-description {
+        padding-bottom:2vh;}
+        
+        #dd-contact {
+            font-size: 12px;
+            position: fixed;
+            bottom: 10px;
+            text-align: center;
+            left: 0;
+            right: 0;
+        }
+        
+        #dd-contact a{
+            color:grey;
+        }
+        
+        #dd-contact a:hover{
+            color:#fff;
+            text-decoration:underline;
+            font-weight:bold;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

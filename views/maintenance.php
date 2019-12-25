@@ -53,16 +53,24 @@
 			
 			<h1 id="dd-headline"><?php echo esc_html( get_bloginfo( 'name' ) ); ?> will be Coming Soon</h1>			    				
 			
-			<div id="dd-description">Get ready! Something really cool is coming!</div>			    				
-			<span id="dd-privacy-policy-txt">We promise to never spam you.</span>
-			    						    			   			    			    			    				
-			<div id="dd-socialprofiles">
-				<a href="https://facebook.com/billionschoices" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>			
-				<a href="https://twitter.com/billionschoices" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>			
-				<a href="https://instagram.com/billionschoices" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>			
-				<a href="https://pinterest.com/billionschoices" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>			
-				<a href="mailto:billionschoices@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
-			</div>
+			<div id="dd-description">Get ready! Something really cool is coming!</div>
+			
+			<!--By Uncommenting this Section and Adding Social Links, It Can be Shown in Front End-->
+			
+            <!--<div id="dd-socialprofiles">-->
+			<!--	<a href="#" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>			-->
+			<!--	<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>			-->
+			<!--	<a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>			-->
+			<!--	<a href="#" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a>			-->
+			<!--	<a href="#" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			-->
+			<!--</div>-->
+			
+			<span id="dd-contact"><?php
+			
+			$admin_email = get_option('admin_email');
+			echo '<a href="mailto:'.$admin_email.'">Wanna Contact Administrator</a>';
+			
+			?></span>
 
 			
 	</div>
