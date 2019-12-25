@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: DD Simplest Maintenance Mode
- * Plugin URI: https://drabdigital.com/wordpress-maintenance-plugin
+ * Plugin URI: https://github.com/akshansh1998/dd-simplest-maintenance
  * Description: Displays a maintenance mode page for anyone who's not logged in.
  * Version: 1.0
  * Author: Ankush anand
