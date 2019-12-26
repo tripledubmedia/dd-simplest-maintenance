@@ -28,4 +28,5 @@ If Anyone trying to use it and Customizing it, They need to Credit the Author
 
 # Author
 Github: https://github.com/akshansh1998
+
 Instagram: https://instagram.com/akshansh1998
