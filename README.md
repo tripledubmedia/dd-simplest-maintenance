@@ -24,3 +24,8 @@ Developers can also use it and Edit the Layout for their project, it is very sim
 # Reuse and Editing
 
 If Anyone trying to use it and Customizing it, They need to Credit the Author
+
+
+# Author
+Github: https://github.com/akshansh1998
+Instagram: https://instagram.com/akshansh1998
