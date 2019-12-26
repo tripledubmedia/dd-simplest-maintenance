@@ -55,13 +55,17 @@ function ddDonate($links, $file)
 
 // Admin Notice - Maintenance Mode is Active
 
-function sample_admin_notice__success()
+function maintenance_notice()
 {
 ?>
 	<div class="notice notice-success">
-		<p><?php _e('Maintenance Mode is <b>Active</b>!', 'sample-text-domain'); ?></p>
+		<p><?php 
+		$site_url = get_site_url( );
+
+		
+		_e('Maintenance Mode is <b>Active</b>! You can Turn it off by <a href="'. $site_url.'/wp-admin/plugins.php">deactivating</a> the DD Simplest Maintenance Mode Plugin', ''); ?></p>
 	</div>
 <?php
 }
-add_action('admin_notices', 'sample_admin_notice__success');
+add_action('admin_notices', 'maintenance_notice');
 add_action('wp_loaded', 'dd_maintenance_mode');
