@@ -1,4 +1,7 @@
-# dd-simplest-maintenance-mode Plugin For WordPress
+# dd-simplest-maintenance-mode
+
+Simplest and Light Weight Maintenance and Coming Soon Mode Plugin For WordPress
+
 Displays a maintenance mode page for anyone who's not logged in for WordPress Blog
 
 The login page gets excluded so that you can login if necessary.
