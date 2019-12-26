@@ -25,7 +25,7 @@
 
 // Main Function of Plugin
 
-function dd_maintenance_mode()
+function ddsmm_maintenance_mode()
 {
 	global $pagenow;
 	if ($pagenow !== 'wp-login.php' && !current_user_can('manage_options') && !is_admin()) {
@@ -39,9 +39,9 @@ function dd_maintenance_mode()
 }
 
 // Adding Link
-add_filter('plugin_row_meta', 'ddDonate', 10, 2);
+add_filter('plugin_row_meta', 'ddsmm_Donate', 10, 2);
 
-function ddDonate($links, $file)
+function ddsmm_Donate($links, $file)
 {
 	if (plugin_basename(__FILE__) == $file) {
 		$row_meta = array(
@@ -55,7 +55,7 @@ function ddDonate($links, $file)
 
 // Admin Notice - Maintenance Mode is Active
 
-function maintenance_notice()
+function ddsmm_maintenance_notice()
 {
 ?>
 	<div class="notice notice-success">
@@ -67,5 +67,5 @@ function maintenance_notice()
 	</div>
 <?php
 }
-add_action('admin_notices', 'maintenance_notice');
-add_action('wp_loaded', 'dd_maintenance_mode');
+add_action('admin_notices', 'ddsmm_maintenance_notice');
+add_action('wp_loaded', 'ddsmm_maintenance_mode');

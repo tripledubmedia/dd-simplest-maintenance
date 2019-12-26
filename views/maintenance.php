@@ -37,14 +37,14 @@
 </head>
 
 <body>
-	<div id="dd-page">
-		<div id="dd-content">
+	<div id="ddsmm-page">
+		<div id="ddsmm-content">
 
-			<h1 id="dd-headline" class="fadeIn"><?php echo esc_html(get_bloginfo('name')); ?> will be Coming Soon</h1>
+			<h1 id="ddsmm-headline" class="fadeIn"><?php echo esc_html(get_bloginfo('name')); ?> will be Coming Soon</h1>
 
-			<div id="dd-description" class="fadeIn">Get ready! Something really cool is coming!</div>
+			<div id="ddsmm-description" class="fadeIn">Get ready! Something really cool is coming!</div>
 
-			<span id="dd-contact" class="fadeIn"><?php
+			<span id="ddsmm-contact" class="fadeIn"><?php
 
 													$admin_email = get_option('admin_email');
 													echo '<a href="mailto:' . $admin_email . '">Wanna Contact Administrator?</a>';

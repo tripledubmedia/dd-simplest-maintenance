@@ -32,12 +32,12 @@ body {
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
 }
-#dd-page {
+#ddsmm-page {
 	background-color: rgba(0, 0, 0, 0);
 	
 }
 
-.flexbox #dd-page {
+.flexbox #ddsmm-page {
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -45,15 +45,15 @@ body {
 	height: 100vh;
 }
 
-.dd body {
+.ddsmm body {
 	background: transparent;
 	background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
 	background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
 	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
 }
 
-.dd body,
-.dd body p {
+.ddsmm body,
+.ddsmm body p {
 	font-family: Helvetica, sans-serif;
 	font-weight: 400;
 	font-style: inherit;
@@ -63,17 +63,17 @@ body {
 }
 
 
-.dd h1,
-.dd h2,
-.dd h3,
-.dd h4,
-.dd h5,
-.dd h6 {
+.ddsmm h1,
+.ddsmm h2,
+.ddsmm h3,
+.ddsmm h4,
+.ddsmm h5,
+.ddsmm h6 {
 	font-family: 'Pacifico';
 	color: #ffffff;
 }
 
-#dd-headline {
+#ddsmm-headline {
 	font-family: 'Pacifico';
 	font-weight: 400;
 	font-style: inherit;
@@ -86,14 +86,14 @@ body {
 }
 
 
-.dd a,
-.dd a:visited,
-.dd a:hover,
-.dd a:active {
+.ddsmm a,
+.ddsmm a:visited,
+.ddsmm a:hover,
+.ddsmm a:active {
 	color: #ffffff;
 }
 
-#dd-content {
+#ddsmm-content {
 	padding-bottom: 2vh;
 	max-width: 500px;
 	background-color: #000000;
@@ -106,14 +106,14 @@ body {
 }
 
 
-#dd-description {
+#ddsmm-description {
 	padding-bottom: 2vh;
 	font-size:20px;
 	font-family: Helvetica, sans-serif;
 	animation-delay: 1.0s;
 }
 
-#dd-contact {
+#ddsmm-contact {
 	font-size: 12px;
 	position: fixed;
 	bottom: 10px;
@@ -123,11 +123,11 @@ body {
 	animation-delay: 1.8s;
 }
 
-#dd-contact a {
+#ddsmm-contact a {
 	color: grey;
 }
 
-#dd-contact a:hover {
+#ddsmm-contact a:hover {
 	color: #fff;
 	text-decoration: underline;
 	font-weight: bold;
