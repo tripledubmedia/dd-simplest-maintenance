@@ -2,12 +2,13 @@
 /*
  * Plugin Name: DD Simplest Maintenance Mode
  * Plugin URI: https://github.com/akshansh1998/dd-simplest-maintenance
- * Description: A Light Weight Maintenance Plugin, as Plugin is Activated, It Displays a maintenance mode page for anyone who's not logged in.  
- * Version: 1.0
+ * Description: A Light Weight Simple WordPress Maintenance Plugin, as Plugin is Activated, It Displays a maintenance mode page for anyone who's not logged in.  
+ * Version: 2.1
  * Author: Ankush Anand
  * Author URI: https://github.com/akshansh1998
  * License: GPLv2 or later
- *
+ * Requires at least: 5.2
+ * Requires PHP:      7.2
  * @package dd-simplest-maintenance-mode
  * @copyright Copyright (c) 2020, Ankush Anand
 
