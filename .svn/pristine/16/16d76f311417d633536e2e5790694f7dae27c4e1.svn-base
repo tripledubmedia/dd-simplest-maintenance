@@ -1,0 +1,71 @@
+=== DD Simplest Maintenance Mode ===
+Contributors: akshansh1998 , drabdigital
+Donate link: https://ankushanand.com/donate/
+Tags: coming, coming soon page, landing page, maintenance mode, under construction, dd maintenance mode
+Requires at least: 4.0
+Tested up to: 5.3
+Stable tag: 4.1.3
+Requires PHP: 5.2.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+
+DD Simplest Maintenance Mode Plugin is a 100% Free Plugin that Displays a maintenance mode page for anyone who's not logged in.
+
+== Description ==
+
+DD Simplest Maintenance Mode Plugin
+
+Displays a maintenance or Coming Soon Page for anyone who's not logged in for WordPress Blog
+The login page gets excluded so that you can login if necessary.
+
+Features
+
+* Simple & Free Maintenance and Coming Soon Page.
+* Blog Name and Admin Email are shown the Coming Soon Page
+* Activate Plugin to Put Website/Blog on Maintenance and Deactivate to Disable
+* Login URL (domain/wp-login.php) is Excluded and Also Logged in User are Excluded from Maintenance
+* No Data is Taken and Collected, This is a Free Plugin, No Paid Plans and No Charges to Use it.
+
+
+Leave Your Suggestions for Improvement
+
+If You have Any Type of Suggestions for the Plugin, You Can Submit them in the Support Section of Plugin
+
+
+Reuse and Editing
+
+If Anyone trying to use it and Customizing it, They need to Credit the Author
+
+
+
+== Installation ==
+
+1. Upload the plugin folder (dd-maintenance-mode) to the `/wp-content/plugins directory, or install the plugin through the WordPress plugins screen directly.
+2. Only Activate the plugin to Enable the Maintenance Mode on Your Website through the 'Plugins' screen in WordPress
+
+
+== Frequently Asked Questions ==
+
+= Is DD Simplest Maintenance Mode Plugin Free? =
+
+Yes, This Maintenance & Comming Soon Plugin is Absolutely Free Forever.
+
+= Are There any Paid Plans? =
+
+NO, It is 100% Free, But You Can Make Donations to Support the Plugin Author
+
+== Screenshots ==
+
+1. This is a Layout of Maintenance Page. if you don't like it or You have any Suggestions, Got to support section, We will Add new Design
+
+== Changelog ==
+
+= 1.0 =
+* First Release of Plugin.
+
+== Upgrade Notice ==
+
+= 1.0 =
+This is a Stable Version of DD Simplest Maintenance Mode Plugin
+

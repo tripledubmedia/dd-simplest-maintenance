@@ -1,0 +1,134 @@
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
+}
+html {
+	height: 100%;
+	background: #ffffff no-repeat center bottom fixed;
+	background-image: radial-gradient(circle, #00000077, #00000021, #00000000),
+	url(../image/background.jpg);
+	background-size: cover;
+	overflow: hidden;
+	color: #ffffff;
+}
+
+body {
+	height: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#ddsmm-page {
+	background-color: rgba(0, 0, 0, 0);
+	
+}
+
+.flexbox #ddsmm-page {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	text-align: center;
+	height: 100vh;
+}
+
+.ddsmm body {
+	background: transparent;
+	background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
+	background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 100%);
+}
+
+.ddsmm body,
+.ddsmm body p {
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: inherit;
+	font-size: 20px;
+	line-height: 1.50em;
+	color: #ffffff;
+}
+
+
+.ddsmm h1,
+.ddsmm h2,
+.ddsmm h3,
+.ddsmm h4,
+.ddsmm h5,
+.ddsmm h6 {
+	font-family: 'Pacifico';
+	color: #ffffff;
+}
+
+#ddsmm-headline {
+	font-family: 'Pacifico';
+	font-weight: 400;
+	font-style: inherit;
+	font-size: 48px;
+	color: #ffffff;
+	line-height: 1.00em;
+	padding-bottom: 5vh;
+	margin:0;
+	text-shadow: 1px 1px 10px #000000ad;
+}
+
+
+.ddsmm a,
+.ddsmm a:visited,
+.ddsmm a:hover,
+.ddsmm a:active {
+	color: #ffffff;
+}
+
+#ddsmm-content {
+	padding-bottom: 2vh;
+	max-width: 500px;
+	background-color: #000000;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: transparent;
+}
+
+
+#ddsmm-description {
+	padding-bottom: 2vh;
+	font-size:20px;
+	font-family: Helvetica, sans-serif;
+	animation-delay: 1.0s;
+}
+
+#ddsmm-contact {
+	font-size: 12px;
+	position: fixed;
+	bottom: 10px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	animation-delay: 1.8s;
+}
+
+#ddsmm-contact a {
+	color: grey;
+}
+
+#ddsmm-contact a:hover {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
