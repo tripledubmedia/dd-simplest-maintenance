@@ -29,7 +29,7 @@
 function ddsmm_maintenance_mode()
 {
 	global $pagenow;
-	if ($pagenow !== 'wp-login.php' && !current_user_can('manage_options') && !is_admin()) {
+	if ($pagenow !== 'wp-login.php' && !current_user_can('edit_posts') && !is_admin()) {
 		header('HTTP/1.1 Service Unavailable', true, 503);
 		header('Content-Type: text/html; charset=utf-8');
 		if (file_exists(plugin_dir_path(__FILE__) . 'views/maintenance.php')) {
@@ -60,11 +60,11 @@ function ddsmm_maintenance_notice()
 {
 ?>
 	<div class="notice notice-success">
-		<p><?php 
-		$site_url = get_site_url( );
+		<p><?php
+			$site_url = get_site_url();
 
-		
-		_e('Maintenance Mode is <b>Active</b>! You can Turn it off by <a href="'. $site_url.'/wp-admin/plugins.php">deactivating</a> the DD Simplest Maintenance Mode Plugin', ''); ?></p>
+
+			_e('Maintenance Mode is <b>Active</b>! You can Turn it off by <a href="' . $site_url . '/wp-admin/plugins.php">deactivating</a> the DD Simplest Maintenance Mode Plugin', ''); ?></p>
 	</div>
 <?php
 }
