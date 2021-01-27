@@ -22,8 +22,9 @@ html {
 }
 
 body {
+	/* display: flex; */
 	text-align: center;
-	padding: 150px;
+	/* padding: 3rem; */
 }
 
 h1 {
