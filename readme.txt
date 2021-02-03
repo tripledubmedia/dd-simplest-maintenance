@@ -1,5 +1,5 @@
 === DD Simplest Maintenance Mode ===
-Contributors: akshansh1998 , drabdigital
+Contributors: akshansh1998 , drabdigital, chamannarved
 Donate link: https://ankushanand.com/donate/
 Tags: coming, coming soon page, landing page, maintenance mode, under construction, dd maintenance mode, simple maintenance, easy maintenance, one click maintenance, wordpress maintenance mode
 Requires at least: 4.6
