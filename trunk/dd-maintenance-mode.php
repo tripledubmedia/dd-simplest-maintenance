@@ -3,7 +3,7 @@
  * Plugin Name: DD Simplest Maintenance Mode
  * Plugin URI: https://github.com/akshansh1998/dd-simplest-maintenance
  * Description: A Light Weight Simple WordPress Maintenance Plugin, as Plugin is Activated, It Displays a maintenance mode page for anyone who's not logged in.  
- * Version: 2.1
+ * Version: 2.4
  * Author: Ankush Anand
  * Author URI: https://github.com/akshansh1998
  * License: GPLv2 or later
@@ -58,6 +58,8 @@ function ddsmm_Donate($links, $file)
 
 function ddsmm_maintenance_notice()
 {
+	
+	if(current_user_can('administrator')){
 ?>
 	<div class="notice notice-success">
 		<p><?php
@@ -68,5 +70,22 @@ function ddsmm_maintenance_notice()
 	</div>
 <?php
 }
+elseif (!current_user_can('administrator') && current_user_can('edit_posts')) {
+	?>
+	<div class="notice notice-success">
+		<p><?php
+			$site_url = get_site_url();
+			$admin_email = get_option('admin_email');
+
+
+			_e('The Site is currently under maintenance mode, which means general visitors and subscribers will not be able to see the website. <a href="mailto:'. $admin_email .'"> Contact Admin</a>, if you wish to turn off maintenance mode', ''); ?></p>
+	</div>
+<?php
+}
+
+
+}
+
+
 add_action('admin_notices', 'ddsmm_maintenance_notice');
 add_action('wp_loaded', 'ddsmm_maintenance_mode');
