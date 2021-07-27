@@ -23,11 +23,26 @@ If Anyone trying to use it and Customizing it, They need to Credit the Author.
 
 # Changelog
 
-> **V1.0** First Release of Plugin.
+= 2.5 : 27th July, 2021
+* Fixed: Allowed access to xmlrpc
+* Fixed: WP Cron Job not running while in maintenance
 
-> **V2.0** : 31st August, 2020 More Clean Design, Cleaner & Less Amount of Code, Reduced Page Size
+= 2.4 : 4th February, 2021 =
+* Added: Backend access to other users who can edit posts (authors, editors, contributers etc
+* Added: Admin notice for other users about maintenance mode
+* Fixed: responsiveness Design
+* update: added support for latest wordpress versions
 
-> **V2.1** : 31st August, 2020 Few Optimizations in Design & Plugin Files
+= 2.1 : 31st August, 2020 =
+* Few Optimizations in Design & Plugin Files
+
+= 2.0 : 31st August, 2020 =
+* More Clean Design, Cleaner & Less Amount of Code, Reduced Page Size
+
+= 1.0 =
+* First Release of Plugin.
+
+
 
 # Installation
 

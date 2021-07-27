@@ -3,7 +3,7 @@ Contributors: akshansh1998 , drabdigital, chamannarved
 Donate link: https://ankushanand.com/donate/
 Tags: coming, coming soon page, landing page, maintenance mode, under construction, dd maintenance mode, simple maintenance, easy maintenance, one click maintenance, wordpress maintenance mode
 Requires at least: 4.6
-Tested up to: 5.8
+Tested up to: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,11 +35,6 @@ If You have Any Type of Suggestions for the Plugin, You Can Submit them in the S
 If Anyone trying to use it and Customizing it, They need to Credit the Author
 
 == Changelog ==
-
-= 2.5 : 27th July, 2021
-* Fixed: Allowed access to xmlrpc
-* Fixed: WP Cron Job not running while in maintenance
-
 = 2.4 : 4th February, 2021 =
 * Added: Backend access to other users who can edit posts (authors, editors, contributers etc
 * Added: Admin notice for other users about maintenance mode
