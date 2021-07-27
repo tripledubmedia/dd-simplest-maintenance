@@ -36,7 +36,7 @@ If Anyone trying to use it and Customizing it, They need to Credit the Author
 
 == Changelog ==
 
-= 2.5 : 27th July, 2021
+= 2.5 : 27th July, 2021 =
 * Fixed: Allowed access to xmlrpc
 * Fixed: WP Cron Job not running while in maintenance
 
