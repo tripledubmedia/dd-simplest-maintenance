@@ -46,11 +46,8 @@
 			</svg></span>
 		<h1 class="fadeIn">Our site is getting a little tune up and some love.</h1>
 		<div>
-			<p class="fadeIn">We apologize for the inconvenience, but we're performing some maintenance. You can still contact us
-				at
-				<?php $admin_email = get_option('admin_email');
-				echo '<a href="mailto:' . $admin_email . '">' . $admin_email . '</a>'; ?>. We'll be back up soon!</p>
-			<p class="fadeIn">&mdash; Team <?php echo esc_html(get_bloginfo('name')); ?></p>
+			<p class="fadeIn">We apologize for the inconvenience, but we're performing some maintenance. We'll be back soon!</p>
+			<p class="fadeIn">&mdash; <?php echo esc_html(get_bloginfo('name')); ?></p>
 		</div>
 	</div>
 

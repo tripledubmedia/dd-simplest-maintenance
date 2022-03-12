@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:  DD Simple Maintenance & Coming Soon Mode - Clean, Easy & 100% Free
+ * Plugin Name:  DD Simple Maintenance & Coming Soon Mode (Triple Dub Version)
  * Plugin URI: https://github.com/akshansh1998/dd-simplest-maintenance
  * Description: A Light Weight Free & Simple WordPress Maintenance Plugin, as Plugin is Activated, It Displays a maintenance mode page for anyone who's not logged in.  
  * Version: 2.5
@@ -16,7 +16,7 @@
 */
 
 /**
- * DD Simplest Maintenance Mode
+ * DD Simplest Maintenance Mode (Triple Dub Version)
  *
  * Simple Maintenance/ Coming soon Page
  * Displays the coming soon page for anyone who's not logged in.
