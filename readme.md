@@ -1,9 +1,11 @@
 ![](assets/banner-1544x500.png)
 
-# DD Simplest Maintenance Mode Plugin
+# DD Simplest Maintenance Mode Plugin (Triple Dub Media Version)
 
 Displays a maintenance or Coming Soon Page for anyone who's not logged in for WordPress Blog.
 The login page gets excluded so that you can login if necessary.
+
+This fork removes the email to prevent email harvesting.
 
 # Features
 
